@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{24362182-B433-4915-A75D-AE373AFCCAC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{863F318D-6AE0-476D-90E0-ADF9C6C7E24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Debug|x64.ActiveCfg = Debug|x64
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Debug|x64.Build.0 = Debug|x64
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Debug|x64.Deploy.0 = Debug|x64
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Release|x64.ActiveCfg = Release|x64
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Release|x64.Build.0 = Release|x64
+		{24362182-B433-4915-A75D-AE373AFCCAC3}.Release|x64.Deploy.0 = Release|x64
+		{863F318D-6AE0-476D-90E0-ADF9C6C7E24D}.Debug|x64.ActiveCfg = Debug|x64
+		{863F318D-6AE0-476D-90E0-ADF9C6C7E24D}.Debug|x64.Build.0 = Debug|x64
+		{863F318D-6AE0-476D-90E0-ADF9C6C7E24D}.Release|x64.ActiveCfg = Release|x64
+		{863F318D-6AE0-476D-90E0-ADF9C6C7E24D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70DF5DDF-3618-49FD-8990-4069517A879E}
+	EndGlobalSection
+EndGlobal
