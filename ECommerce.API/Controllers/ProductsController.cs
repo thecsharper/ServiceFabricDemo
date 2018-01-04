@@ -17,7 +17,6 @@ namespace ECommerce.API.Controllers
 
         public ProductsController()
         {
-            // new Uri("fabric:/ECommerce/ProductCatalog"),
             _catalogService = ServiceProxy.Create<IProductCatalogService>(
                 new Uri("fabric:/ECommerce/ECommerce.ProductCatalog"),
                 new ServicePartitionKey(0));
@@ -26,8 +25,6 @@ namespace ECommerce.API.Controllers
         [HttpGet]
         public async Task<IEnumerable<ApiProduct>> Get()
         {
-            // return new[] { new ApiProduct() { Id = Guid.NewGuid(), Description = "fake" } };
-
             IEnumerable<Product> allProducts = new List<Product>();
 
             try
